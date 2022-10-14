@@ -8,7 +8,7 @@ public class Task4 {
 
     public static boolean profitableGamble(double prob, int prize, int pay)
     {
-        if ((prob * prize) > pay) { return true; } // если больше
-        else { return false; } // если меньше
+        boolean bl = ((prob * prize) > pay); // true если больше, false если меньше
+        return bl;
     }
 }
