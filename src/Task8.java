@@ -8,10 +8,9 @@ public class Task8 {
 
     public static int nextEdge(int first, int second)
     {
-        int third = first + second - 1; 
+        return (first + second - 1);
         // сторона треугольника меньше суммы двух других
         // если нам нужна максимальная сторона то берем сумму двух дргуих
         // и вычитаем 1
-        return third;
     }
 }

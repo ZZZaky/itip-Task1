@@ -9,7 +9,6 @@ public class Task1 {
 
     public static int remainder(int first, int second)
     {
-        int remains = first % second; // остаток от деления first на second
-        return remains;
+        return first % second; // остаток от деления first на second
     }
 }

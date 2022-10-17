@@ -8,7 +8,6 @@ public class Task3 {
     
     public static int animals(int chickens, int cows, int pigs)
     {
-        int legs = (chickens * 2) + (cows * 4) + (pigs * 4); // подсчет всех ног
-        return legs;
+        return (chickens * 2) + (cows * 4) + (pigs * 4); // подсчет всех ног
     }
 }

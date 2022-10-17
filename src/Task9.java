@@ -14,7 +14,6 @@ public class Task9 {
         { 
             sum += array[i] * array[i] * array[i]; // прибавление куба числа к сумме
         }
-         
         return sum;
     }
 }

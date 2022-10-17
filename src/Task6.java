@@ -9,7 +9,6 @@ public class Task6 {
 
     public static int ctoa(char symbol)
     {
-        int ascii = symbol; // получаем ascii символа
-        return ascii;
+        return symbol; // получаем ascii символа
     }
 }

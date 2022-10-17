@@ -8,15 +8,10 @@ public class Task5 {
 
     public static String operation(int N, int a, int b)
     {
-        int sum = a + b; // сумма
-        int sub = a - b; // вычитание
-        int mul = a * b; // умножение
-        int div = a / b; // деление
-
-        if (sum == N) { return "added"; }
-        else if (sub == N) { return "subtracted"; }
-        else if (mul == N) { return "multiply"; }
-        else if (div == N) { return "division"; }
-        else { return "none"; }
+        if ((a + b) == N) { return "added"; } // сумма
+        else if ((a - b) == N) { return "subtracted"; } // вычитание
+        else if ((a * b) == N) { return "multiply"; } // умножение
+        else if ((a / b) == N) { return "division"; } // деление
+        else { return "none"; } // никак не сравнять
     }
 }

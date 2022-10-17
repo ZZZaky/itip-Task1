@@ -9,8 +9,6 @@ public class Task10 {
     public static boolean abcmath(int a, int b, int c) 
     {
         for (int i = 0; i < b; i++) { a += a; } // a прибавится к себе b раз
-        
-        if(a % c == 0) { return true; } // если делится на c без остатка
-        else { return false; } // если не делается
+        return (a % c == 0);
     }
 }

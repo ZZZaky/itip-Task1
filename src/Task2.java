@@ -6,9 +6,8 @@ public class Task2 {
         System.out.println(triArea(10, 10));
     }
     
-    public static int triArea(int base, int height)
+    public static double triArea(int base, int height)
     {
-        int area = (base * height) / 2; // площадь треугольника = основание * высоту / 2
-        return area;
+        return ((base * height) / 2); // площадь треугольника = основание * высоту / 2
     }
 }
